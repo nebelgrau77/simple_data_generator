@@ -16,14 +16,16 @@ e.g. _datagen 1000 0 5 output.txt_
 ## TO DO:
 
 * add a possibility to use different separators
-* check if upper bound is higher than the lower one
-* some more refactoring?
+
+## Improvements:
+Use of format! macro instead of a less clear to understand string construction.
+Some improvements suggested by Clippy: unwrap_or_else, some useless imports removed, static lifetime removed from constants.
 
 
-Time measured with Linux time command:
+## Time measured with Linux time command:
 
-
-## 1_000_000_000 
+1_000_000_000 lines: 
 
 * Rust: 18 minutes
 * Python: 92 minutes
+
