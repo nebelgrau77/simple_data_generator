@@ -1,6 +1,6 @@
 [package]
 name = "datagen"
-version = "0.1.0"
+version = "0.1.5"
 authors = ["nebelgrau <nebelgrau@gmx.com>"]
 edition = "2018"
 
