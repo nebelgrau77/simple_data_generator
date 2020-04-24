@@ -25,7 +25,5 @@ Time measured with Linux time command:
 
 ## 1_000_000_000 
 
-* real    18m18,669s
-* user    7m47,475s
-* sys     1m23,458s
-
+* Rust: 18 minutes
+* Python: 92 minutes
