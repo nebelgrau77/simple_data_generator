@@ -26,7 +26,7 @@ fn main() {
     }
 
     // set up writing to file
-    let output = File::create(write_path).unwrap();
+    let output = File::create(&write_path).unwrap();
     let mut buffered_output = BufWriter::new(output);
 
     // get ASCII uppercase letters to generate 'names'
@@ -53,6 +53,8 @@ fn main() {
         write!(buffered_output, "{}", new_string).unwrap();
 
         }
+
+    println!("All done. Your output file was saved as {}.", &write_path);
 
 }
 
